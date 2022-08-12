@@ -2,9 +2,9 @@
 echo "Tayfun/Hasan naber cnm"
 read -p "YES/NO: " NABER
 echo 'export NODENAME='$NABER >> $HOME/.bash_profile
-if [  $WALLET == "YES" ]; then
+if [  $NABER == "YES" ]; then
 	echo "ALLAH İYİLİK VERSİN CANIM"
 fi
-if [  $WALLET == "NO" ]; then
+if [  $NABER == "NO" ]; then
 	echo "NEDEN KÖTÜSÜN ANLAT BROM"
 fi
